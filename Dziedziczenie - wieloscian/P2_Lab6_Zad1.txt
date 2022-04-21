@@ -1,0 +1,28 @@
+Laboratorium 6.
+
+Zadanie 1.
+
+1. Zdefiniuj klasę Wieloscian (zawierającą pola: dlugoscPodstawy, szerokoscPodstawy, wysokosc 
+(pola te nie mogą być publiczne);
+mutatora umożliwiającego ustawianie danych wejściowych 
+dla obiektów korzystających z klasy Wieloscian).
+
+2. Zdefiniuj klasę Prostopadloscian- ma być ona klasą potomną względem klasy Wieloscian 
+(zawierającą metody (publiczne) Objetosc() oraz Pole();
+metody te powinny zwracać odpowiednio objętość oraz pole powierzchni prostopadlościanu).
+
+3. Zdefiniuj klasę Ostroslup - ma być ona klasą potomną względem klasy Wieloscian 
+(zawierającą metody (publiczne) objetosc() oraz pole();
+metody te powinny zwracać odpowiednio objętość oraz pole powierzchni ostrosłupa o podstawie prostokąta).
+
+4. W funkcji main() utwórz obiekty (w sposób statyczny oraz dynamiczny) klasy Prostopadloscian oraz Ostroslup 
+i dokonaj obliczeń pola powierzchni oraz objętości odpowiednich figur. 
+W oparciu o strumień wyjściowy wyświetl wyniki obliczeń w konsoli.
+
+
+
+
+
+
+
+

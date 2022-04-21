@@ -1,0 +1,39 @@
+Laboratorium 6.
+
+Zadanie 2.
+
+1. Zdefiniuj klasę Ssak zawierającą 2 konstruktory: bezparametrowy oraz parametrowy. 
+Konstruktory mają wypisywać informację o sobie: 
+"Jestem konstruktorem bezparametrowym klasy Ssak."
+lub
+"Jestem konstruktorem parametrowym klasy Ssak."
+
+2. Zdefiniuj klasę Pies dziedziczącą z klasy Ssak zawierającą  2 konstruktory: bezparametrowy oraz parametrowy.
+Konstruktory mają wypisywać informację o o sobie: 
+"Jestem konstruktorem bezparametrowym klasy Pies."
+lub
+"Jestem konstruktorem parametrowym klasy Pies."
+
+3. Zdefiniuj klasę Kot również dziedziczącą z klasy Ssak zawierającą  2 konstruktory: bezparametrowy oraz parametrowy.
+Konstruktory mają wypisywać informację o o sobie: 
+"Jestem konstruktorem bezparametrowym klasy Kot."
+lub
+"Jestem konstruktorem parametrowym klasy Kot."
+
+4. W funkcji main() utwórz 4 obiekty klas pochodnych (po 2 dla każdej klasy), tak aby skutkowało to 
+wywołaniem wszystkich możliwych kombinacji konstruktorów bazowych i pochodnych.
+
+5. Zdefiniuj klasę Husky dziedziczącą z klasy Pies (i w konsekwencji również z klasy Ssak) zawierającą  2 konstruktory: 
+bezparametrowy oraz parametrowy.
+Konstruktory mają wypisywać odpowiednio informację o o sobie: 
+"Jestem konstruktorem bezparametrowym klasy Husky."
+lub
+"Jestem konstruktorem parametrowym klasy Husky."
+
+6.Dokonaj transformacji kodu źródłowego w taki sposób, ażeby po utworzeniu obiektów klasy Husky wyświetlały się następujące informacje w podanej kolejności:
+Jestem konstruktorem parametrowym klasy Ssak.
+Jestem konstruktorem bezparametrowym klasy Pies.
+Jestem konstruktorem bezparametrowym klasy Husky.
+Jestem konstruktorem bezparametrowym klasy Ssak.
+Jestem konstruktorem parametrowym klasy Pies.
+Jestem konstruktorem parametrowym klasy Husky.

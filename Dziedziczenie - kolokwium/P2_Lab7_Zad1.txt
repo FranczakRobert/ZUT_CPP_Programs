@@ -1,0 +1,38 @@
+Laboratorium 7.
+
+Zadanie 1.
+
+1. Stwórz klasę Student 
+z polem nrIndeksu,
+getterem (do pobrania numeru indeksu),
+metodą wyswietlNrIndeksu() wyświetlającą numer indeksu. 
+Pole nrIndeksu nie może być publiczne.
+
+2. Stwórz klasę Kolokwium dziedziczącą po klasie Student 
+z polami: wynikKol1, wynikKol2, wynikKol3,
+(3-parametrowym) getterem (do pobrania wyników każdego kolokwium (w punktach)),
+metodą wyświetlWynikiKolokwium() wyświelającą wyniki kolokwiów.
+Pola mają być typu zmiennoprzecinkowego i nie mogą być publiczne.
+
+3. Stwórz klasę Egzamin 
+z polem wynikEgzaminu,
+getterem (do pobrania wyniku egzaminu (w punktach)),
+metodą wyświetlWynikEgzaminu() wyświetlającą wynik egzaminu.
+Pole wynik_egzaminu ma być typu zmiennoprzecinkowego i mie może być publiczne.
+
+4. Stwórz klasę Wynik dziedziczącą po klasach Kolokwium oraz Egzamin 
+zawierającą pole wynikStudenta,
+metodę obliczWynik(), 
+wyswietlWynik() 
+odpowiednio obliczającymi oraz wyświetlającymi wynik studenta.
+Pole wynikStudenta musi być prywatne.
+Wynik studenta ma być obliczony według wzoru: (wynikKol1 + wynikKol2 + wynikKol3) / 3 + 3 * wynikEgzaminu.
+
+5. Utwórz dwóch studentów 
+(jednego w sposób statyczny, drugiego w sposób dynamiczny),
+pobierz dla każdego z nich:
+numer indeksu, wyniki kolokwiów oraz wynik egzaminu,
+następnie oblicz wynik końcowy,
+na końcu go wyświetl. 
+
+Zapobiegaj wyciekom pamięci  usuwając ręcznie obiekty w przypadku, gdy jest to wymagane.

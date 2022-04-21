@@ -1,0 +1,35 @@
+Laboratorium 7.
+
+Zadanie 2.
+
+1. Stwórz klasę Osoba 
+z polami: 
+imie, 
+nazwisko, 
+wiek, 
+konstruktorem inicjalizującym wszystkie pola,
+metodą Wypisz().
+
+2. Stwórz klasę Książka 
+z polami: 
+autor (typu Osoba), 
+tytul, 
+dataWydania, 
+cena,
+gatunek,
+metodą Wypisz().
+
+3. Stwórz klasę Czytelnik, dziedziczącą z klasy Osoba. 
+Dodatkowo klasa Czytelnik powinna posiadać pole - tablicę obiektów typu Książka -
+listę książek aktualnie wypożyczonych przez danego czytelnika,
+metodę wypiszKsiążki() - wypisujące informację o autorze oraz tytutule książek, które czytelnik wypożyczył.
+
+4. Stwórz dynamicznie 12 książek oraz 3 czytelników (wypełnij wszystkie pola adekwatnymi informacjami), 
+przypisz po 3 wybrane książki, do tablic wypożyczonych książek dla każdego czytelnika.
+Uwzględnij następujące  ograniczenia:
+- dana książka nie może być wypożyczona w danym momencie przez więcej niż jednego czytelnika, 
+- dany czytelnik nie może wypożyczyć wiecej niż 3 książki.
+
+5. Wywołaj metodę wypiszKsiążki() dla każdego czytelnika.
+
+Uwzględnij brak Garbage Collectora w C++.

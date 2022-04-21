@@ -1,0 +1,24 @@
+Laboratorium 5.
+
+Zadanie 1.
+
+1. Zdefiniuj klasę Zespolona (zawierającą pola: czesc_rzeczywista, czesc_urojona, 
+konstruktor 2-parametrowy umożliwiający inicjalizację liczby zespolonej,
+metodę wyswietl() umożliwiającą wyświetlenie liczby zespolonej w postaci algebraicznej (z = a + bi), 
+przeciążone operatory dodawania, odejmowania, mnożenia oraz dzielenia zwracające obiekt klasy Zespolona 
+(zadbaj o oprawność operacji arytmetycznych dla liczb zespolonych).
+
+Określ pola przechowujące dane jako prywatne, a metody oraz przeciążone operatory jako publiczne.
+Przeciążone operatory są 2-operandowe (mają umożliwiać operacje na dwóch obiektach klasy Zespolona).
+Wyniki operacji mają być zapisywane do kolejnych obiektów klasy Zespolona.
+Wyświetl wyniki operacji z zastosowaniem przeciążonych operatorów w funkcji main().
+
+2. Do klasy Zespolona dodaj przeciążone operatory: new oraz delete. 
+(Wykorzystaj w tym celu funkcje malloc() oraz free().)
+Wykorzystaj je do dynamicznego tworzenia obiektów klasy Zespolona oraz ich usuwania,
+a następnie do realizacji operacji arytmetycznych na liczbach zespolonych.
+
+
+
+
+

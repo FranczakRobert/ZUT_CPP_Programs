@@ -1,0 +1,33 @@
+Laboratorium 4.
+
+Zadanie 2.
+
+1. Zdefiniuj klasę Pracownik (zawierającą dane osobowe (imię i nazwisko), 
+(tekstową) informację o zajmowanym przez pracownika stanowisku, 
+stawki zarobów za godzinę pracy (zmiennoprzecinkowo), 
+ilość dni przepracowanych w mesiącu). 
+Wszystkie pola przechowujące dane powinny być prywatne. 
+W klasie powinny być umieszczone metody get() i set(). 
+Klasa powinna posiadać konstruktor z parametrami umożliwiający utworzenie obiektu z wypełnionymi
+odpowiednimi danymi.
+
+2. Zdefiniuj klasę Firma, która przechowuje w tablicy spis wszystkich pracowników 
+(proszę założyć, że liczba pracowników nie przekracza 100). 
+Tablica ma przechowywać wskaźniki na obiekty klasy Pracownik. 
+Zdefiniuj metody:
+- dodawania nowego pracownika do firmy, 
+- wypisywania aktualnego spisu pracowników, 
+- wypisywania danych pracownika o podanym numerze identyfikacyjnym (jeśli taki istnieje),
+- wypisywania stawki pracownika o podanym nazwisku,
+- wypisywania ilości godzin przepracowanych w miesiącu.
+
+Program powinien posiadać następujące menu:
+1. Wypisz pracowników
+2. Dodaj pracownika
+3. Wypisz pracownika o numerze identyfikacyjnym
+4. Wypisz stawkę za godzinę dla pracownika o nazwisku
+5. Wypisz ilość godzin przepracowanych w miesiącu przez pracownika o nazwisku.
+6. Wyjście z programu
+
+
+
